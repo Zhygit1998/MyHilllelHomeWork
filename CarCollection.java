@@ -1,47 +1,106 @@
-package lesson7;
+package lesson_8;
 
-import java.util.ArrayList;
+import java.util.Arrays;
 
-public class CarCollection {
-    private ArrayList car;
-    private int count = 0;
-    private int sizeArray;
-
-    public CarCollection(int sizeArray) {
-        this.car = new ArrayList(sizeArray);
-    }
-
-    public int getSizeArray() {
-        return sizeArray;
-    }
-
-    public void setSizeArray(int sizeArray) {
-        this.sizeArray = sizeArray;
-    }
+public class CarCollection implements CarCollectionInterface {
+    private String[] carCollection;
+    private int size;
+    private static final int ARR_SIZE_CONST = 8;
 
     @Override
     public String toString() {
         return "CarCollection{" +
-                "car=" + car +
+                "carCollection=" + Arrays.toString(carCollection) +
                 '}';
     }
-    public void addCarCollectionIV(int index, String value) {
-        car.add(index, value);
+
+    public CarCollection() {
+
+        this.carCollection = new String[ARR_SIZE_CONST];
     }
 
-    public void addCarCollectionV(String value) {
-        car.add(value);
+    public CarCollection(int size) {
+
+        this.carCollection = new String[size];
     }
 
-    public void removeCarCollectionI(int index) {
-        car.remove(index);
+
+    String[] toEnlarge() {
+        String[] fakeArr = new String[(carCollection.length * 2)];
+        System.arraycopy(carCollection, 0, fakeArr, 0, carCollection.length);
+        return fakeArr;
     }
 
-    public void removeCarCollectionV(String value) {
-        car.remove(value);
+    @Override
+    public boolean add(String element) {
+        if (carCollection.length == size) {
+            carCollection = toEnlarge();
+        }
+        carCollection[size] = element;
+        size++;
+        return true;
     }
 
-    public String getCarCollection(int index) {
-        return (String) car.get(index);
+    @Override
+    public boolean add(int index, String element) {
+
+        if (carCollection.length != size) {
+            carCollection = toEnlarge();
+        }
+        carCollection[index] = element;
+        size++;
+        return true;
+    }
+
+    @Override
+    public boolean delete(String element) {
+            for (int i = 0; i < carCollection.length; i++) {
+                if (carCollection[i].equals(element)) {
+                    System.arraycopy(carCollection, i + 1, carCollection,
+                            i, size - i);
+                    carCollection[size] = null;
+                    return true;
+                }
+            }
+            return false;
+        }
+    @Override
+    public String get(int index) {
+        for (int i = 0; i < carCollection.length; i++) {
+            if (index == i)
+            {
+                return carCollection[i];
+            }
+        }
+        return null;
+    }
+
+    @Override
+    public boolean contain(String element) {
+        for (int i = 0; i < carCollection.length; i++) {
+            if(element.equals(carCollection[i])){
+                return true;
+            }
+        }
+        return false;
+    }
+
+    @Override
+    public boolean equals(String[] arrayCar) {
+        return Arrays.equals(carCollection,arrayCar);
+    }
+
+    @Override
+    public boolean clear() {
+        for (int i = 0; i < carCollection.length; i++) {
+            carCollection[i] = null;
+            size = 0;
+        }
+        return true;
+    }
+
+    @Override
+    public int size() {
+        return size;
     }
 }
