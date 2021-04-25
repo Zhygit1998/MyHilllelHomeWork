@@ -27,7 +27,15 @@ public class CarCollectionMain {
         System.out.println("Equals carCollection_0 and carCollection_1? - " + carCollection_0.equals(carCollection_1));
         carCollection_0.clear();
         System.out.println("Cleaned Array "+carCollection_0);
-
-
+        CarCollection carCollection_3 = new CarCollection();
+        carCollection_3.add("Toyota");
+        carCollection_3.add("Mazda");
+        carCollection_3.add("Infinity");
+        carCollection_3.add("Honda");
+        carCollection_3.add("Maserati");
+        for (Object car: carCollection_3) {
+            System.out.println(car);
+            System.out.println();
+        }
     }
 }

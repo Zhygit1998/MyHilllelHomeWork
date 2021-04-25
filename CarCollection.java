@@ -1,11 +1,27 @@
 package lesson_8;
 
 import java.util.Arrays;
+import java.util.Iterator;
 
-public class CarCollection implements CarCollectionInterface {
+public class CarCollection implements CarCollectionInterface, Iterable<Object> {
     private String[] carCollection;
     private int size;
     private static final int ARR_SIZE_CONST = 8;
+
+    private class Itterator implements Iterator<Object> {
+
+        int count = 0;
+
+        @Override
+        public boolean hasNext() {
+            return count < carCollection.length && carCollection[count] != null;
+        }
+
+        @Override
+        public Object next() {
+            return carCollection[count++];
+        }
+    }
 
     @Override
     public String toString() {
@@ -54,21 +70,21 @@ public class CarCollection implements CarCollectionInterface {
 
     @Override
     public boolean delete(String element) {
-            for (int i = 0; i < carCollection.length; i++) {
-                if (carCollection[i].equals(element)) {
-                    System.arraycopy(carCollection, i + 1, carCollection,
-                            i, size - i);
-                    carCollection[size] = null;
-                    return true;
-                }
+        for (int i = 0; i < carCollection.length; i++) {
+            if (carCollection[i].equals(element)) {
+                System.arraycopy(carCollection, i + 1, carCollection,
+                        i, size - i);
+                carCollection[size] = null;
+                return true;
             }
-            return false;
         }
+        return false;
+    }
+
     @Override
     public String get(int index) {
         for (int i = 0; i < carCollection.length; i++) {
-            if (index == i)
-            {
+            if (index == i) {
                 return carCollection[i];
             }
         }
@@ -78,7 +94,7 @@ public class CarCollection implements CarCollectionInterface {
     @Override
     public boolean contain(String element) {
         for (int i = 0; i < carCollection.length; i++) {
-            if(element.equals(carCollection[i])){
+            if (element.equals(carCollection[i])) {
                 return true;
             }
         }
@@ -87,7 +103,7 @@ public class CarCollection implements CarCollectionInterface {
 
     @Override
     public boolean equals(String[] arrayCar) {
-        return Arrays.equals(carCollection,arrayCar);
+        return Arrays.equals(carCollection, arrayCar);
     }
 
     @Override
@@ -103,4 +119,10 @@ public class CarCollection implements CarCollectionInterface {
     public int size() {
         return size;
     }
+
+    @Override
+    public Iterator<Object> iterator() {
+        return new Itterator();
+    }
+
 }
