@@ -1,0 +1,6 @@
+1 Round win: Pavel 
+2 Round win: Ничья 
+3 Round win: PC 
+4 Round win: PC 
+5 Round win: PC 
+По итогу 5 игр победил PC
