@@ -1,0 +1,135 @@
+2021-07-11 20:01:20 INFO  MyNewGame:41 - User started the game
+2021-07-11 20:01:32 INFO  MyNewGame:41 - User started the game
+2021-07-11 20:08:25 INFO  MyNewGame:41 - Пользователь вошел в игру
+2021-07-11 20:09:02 INFO  MyNewGame:41 - Пользователь вошел в игру
+2021-07-11 20:09:24 INFO  MyNewGame:41 - Пользователь вошел в игру
+2021-07-11 20:12:20 INFO  MyNewGame:41 - Пользователь вошел в игру
+2021-07-11 20:12:25 INFO  MyNewGame:50 - Имя пользователя - ВАІФ
+2021-07-11 20:37:23 INFO  MyNewGame:41 - Пользователь вошел в игру
+2021-07-11 20:37:27 INFO  MyNewGame:50 - Имя пользователя - Pavel
+2021-07-11 20:37:30 INFO  MyNewGame:53 - Пользователь выбрал 3 партий
+2021-07-11 20:37:30 INFO  MyNewGame:70 - Сыграно партий 0
+2021-07-11 20:37:30 INFO  MyNewGame:71 - Оасталось партий 3
+2021-07-11 20:37:33 INFO  MyNewGame:115 - 1 Round : Pavel ---> Pavel threw away КаменьPC threw away Ножницы
+2021-07-11 20:37:33 INFO  MyNewGame:70 - Сыграно партий 1
+2021-07-11 20:37:33 INFO  MyNewGame:71 - Оасталось партий 2
+2021-07-11 20:40:41 INFO  MyNewGame:41 - Пользователь вошел в игру
+2021-07-11 20:40:44 INFO  MyNewGame:50 - Имя пользователя - pavel
+2021-07-11 20:40:45 INFO  MyNewGame:53 - Пользователь выбрал 3 партий
+2021-07-11 20:40:45 INFO  MyNewGame:70 - Сыграно партий 0
+2021-07-11 20:40:45 INFO  MyNewGame:71 - Оасталось партий 3
+2021-07-11 20:40:47 INFO  MyNewGame:115 - 1 Round : pavel ---> pavel threw away stone PC threw away scissors
+2021-07-11 20:40:47 INFO  MyNewGame:70 - Сыграно партий 1
+2021-07-11 20:40:47 INFO  MyNewGame:71 - Оасталось партий 2
+2021-07-11 20:40:48 ERROR MyNewGame:94 - Пользователь ввел неверное значение
+2021-07-11 20:40:48 INFO  MyNewGame:70 - Сыграно партий 1
+2021-07-11 20:40:48 INFO  MyNewGame:71 - Оасталось партий 2
+2021-07-11 20:40:50 ERROR MyNewGame:94 - Пользователь ввел неверное значение
+2021-07-11 20:40:50 INFO  MyNewGame:70 - Сыграно партий 1
+2021-07-11 20:40:50 INFO  MyNewGame:71 - Оасталось партий 2
+2021-07-11 20:40:50 ERROR MyNewGame:94 - Пользователь ввел неверное значение
+2021-07-11 20:40:50 INFO  MyNewGame:70 - Сыграно партий 1
+2021-07-11 20:40:50 INFO  MyNewGame:71 - Оасталось партий 2
+2021-07-11 20:40:51 INFO  MyNewGame:115 - 2 Round : PC ---> pavel threw away scissorsPC threw away stone 
+2021-07-11 20:40:51 INFO  MyNewGame:70 - Сыграно партий 2
+2021-07-11 20:40:51 INFO  MyNewGame:71 - Оасталось партий 1
+2021-07-11 20:41:56 INFO  MyNewGame:41 - Пользователь вошел в игру
+2021-07-11 20:41:57 INFO  MyNewGame:50 - Имя пользователя - k
+2021-07-11 20:42:03 INFO  MyNewGame:53 - Пользователь выбрал 3 партий
+2021-07-11 20:42:03 INFO  MyNewGame:70 - Сыграно партий 0
+2021-07-11 20:42:03 INFO  MyNewGame:71 - Оасталось партий 3
+2021-07-11 20:43:42 INFO  MyNewGame:41 - Пользователь вошел в игру
+2021-07-11 20:43:45 INFO  MyNewGame:50 - Имя пользователя - pavel
+2021-07-11 20:43:47 INFO  MyNewGame:53 - Пользователь выбрал 3 партий
+2021-07-11 20:43:47 INFO  MyNewGame:70 - Сыграно партий 0
+2021-07-11 20:43:47 INFO  MyNewGame:71 - Оасталось партий 3
+2021-07-11 20:43:50 INFO  MyNewGame:115 - 1 Round : pavel ---> pavel threw away stone  PC threw away scissors
+2021-07-11 20:43:50 INFO  MyNewGame:70 - Сыграно партий 1
+2021-07-11 20:43:50 INFO  MyNewGame:71 - Оасталось партий 2
+2021-07-11 20:43:51 ERROR MyNewGame:94 - Пользователь ввел неверное значение
+2021-07-11 20:43:51 INFO  MyNewGame:70 - Сыграно партий 1
+2021-07-11 20:43:51 INFO  MyNewGame:71 - Оасталось партий 2
+2021-07-11 20:43:53 INFO  MyNewGame:115 - 2 Round : Draw ---> pavel threw away scissors PC threw away scissors
+2021-07-11 20:43:53 INFO  MyNewGame:70 - Сыграно партий 2
+2021-07-11 20:43:53 INFO  MyNewGame:71 - Оасталось партий 1
+2021-07-11 20:45:42 ERROR MyNewGame:94 - Пользователь ввел неверное значение
+2021-07-11 20:45:42 INFO  MyNewGame:70 - Сыграно партий 2
+2021-07-11 20:45:42 INFO  MyNewGame:71 - Оасталось партий 1
+2021-07-11 20:45:45 ERROR MyNewGame:94 - Пользователь ввел неверное значение
+2021-07-11 20:45:45 INFO  MyNewGame:70 - Сыграно партий 2
+2021-07-11 20:45:45 INFO  MyNewGame:71 - Оасталось партий 1
+2021-07-11 20:45:49 INFO  MyNewGame:115 - 3 Round : pavel ---> pavel threw away paper PC threw away stone 
+2021-07-11 20:45:49 INFO  MyNewGame:141 - Игра окончена. Победил - As a result 3games wonpavel
+2021-07-11 20:48:26 INFO  MyNewGame:41 - Пользователь вошел в игру
+2021-07-11 20:48:31 INFO  MyNewGame:50 - Имя пользователя - 3
+2021-07-11 20:48:33 INFO  MyNewGame:53 - Пользователь выбрал 3 партий
+2021-07-11 20:48:33 INFO  MyNewGame:70 - Сыграно партий 0
+2021-07-11 20:48:33 INFO  MyNewGame:71 - Оасталось партий 3
+2021-07-11 20:48:35 INFO  MyNewGame:115 - 1 Round won: Draw ---> 3 threw away stone  PC threw away stone 
+2021-07-11 20:48:35 INFO  MyNewGame:70 - Сыграно партий 1
+2021-07-11 20:48:35 INFO  MyNewGame:71 - Оасталось партий 2
+2021-07-11 20:48:40 ERROR MyNewGame:94 - Пользователь ввел неверное значение
+2021-07-11 20:48:40 INFO  MyNewGame:70 - Сыграно партий 1
+2021-07-11 20:48:40 INFO  MyNewGame:71 - Оасталось партий 2
+2021-07-11 20:48:42 INFO  MyNewGame:89 - Пользователь преждевременно завершил игру, сыграв 1 партий
+2021-07-11 20:48:57 INFO  MyNewGame:41 - Пользователь вошел в игру
+2021-07-11 20:48:59 INFO  MyNewGame:50 - Имя пользователя - pavel
+2021-07-11 20:49:00 INFO  MyNewGame:53 - Пользователь выбрал 3 партий
+2021-07-11 20:49:00 INFO  MyNewGame:70 - Сыграно партий 0
+2021-07-11 20:49:00 INFO  MyNewGame:71 - Оасталось партий 3
+2021-07-11 20:49:03 INFO  MyNewGame:115 - 1 Round won: pavel ---> pavel threw away stone  PC threw away scissors
+2021-07-11 20:49:03 INFO  MyNewGame:70 - Сыграно партий 1
+2021-07-11 20:49:03 INFO  MyNewGame:71 - Оасталось партий 2
+2021-07-11 20:49:06 ERROR MyNewGame:94 - Пользователь ввел неверное значение
+2021-07-11 20:49:06 INFO  MyNewGame:70 - Сыграно партий 1
+2021-07-11 20:49:06 INFO  MyNewGame:71 - Оасталось партий 2
+2021-07-11 20:49:07 ERROR MyNewGame:94 - Пользователь ввел неверное значение
+2021-07-11 20:49:07 INFO  MyNewGame:70 - Сыграно партий 1
+2021-07-11 20:49:07 INFO  MyNewGame:71 - Оасталось партий 2
+2021-07-11 20:49:08 INFO  MyNewGame:115 - 2 Round won: PC ---> pavel threw away scissors PC threw away stone 
+2021-07-11 20:49:08 INFO  MyNewGame:70 - Сыграно партий 2
+2021-07-11 20:49:08 INFO  MyNewGame:71 - Оасталось партий 1
+2021-07-11 20:49:09 INFO  MyNewGame:115 - 3 Round won: PC ---> pavel threw away paper PC threw away scissors
+2021-07-11 20:49:09 INFO  MyNewGame:141 - Игра окончена. Победил - As a result 3games won PC
+2021-07-11 20:50:55 INFO  MyNewGame:41 - Пользователь вошел в игру
+2021-07-11 20:50:59 INFO  MyNewGame:50 - Имя пользователя - Gfdtk
+2021-07-11 20:51:01 INFO  MyNewGame:53 - Пользователь выбрал 3 партий
+2021-07-11 20:51:01 INFO  MyNewGame:70 - Сыграно партий 0
+2021-07-11 20:51:01 INFO  MyNewGame:71 - Оасталось партий 3
+2021-07-11 20:51:04 INFO  MyNewGame:115 - 1 раунд виграв: Gfdtk ---> Gfdtk викинув камінь  PC викинув ножиці
+2021-07-11 20:51:04 INFO  MyNewGame:70 - Сыграно партий 1
+2021-07-11 20:51:04 INFO  MyNewGame:71 - Оасталось партий 2
+2021-07-11 20:51:04 INFO  MyNewGame:115 - 2 раунд виграв: нічия ---> Gfdtk викинув ножиці PC викинув ножиці
+2021-07-11 20:51:04 INFO  MyNewGame:70 - Сыграно партий 2
+2021-07-11 20:51:04 INFO  MyNewGame:71 - Оасталось партий 1
+2021-07-11 20:51:11 INFO  MyNewGame:115 - 3 раунд виграв: Gfdtk ---> Gfdtk викинув папір PC викинув камінь 
+2021-07-11 20:51:11 INFO  MyNewGame:141 - Игра окончена. Победил - за підсумком  3 ігр перемігGfdtk
+2021-07-11 20:52:57 INFO  MyNewGame:41 - Пользователь вошел в игру
+2021-07-11 20:52:59 INFO  MyNewGame:50 - Имя пользователя - dsad
+2021-07-11 20:53:01 INFO  MyNewGame:53 - Пользователь выбрал 3 партий
+2021-07-11 20:53:01 INFO  MyNewGame:70 - Сыграно партий 0
+2021-07-11 20:53:01 INFO  MyNewGame:71 - Оасталось партий 3
+2021-07-11 20:53:02 INFO  MyNewGame:115 - 1 Round won: Draw ---> dsad threw away stone  PC threw away stone 
+2021-07-11 20:53:02 INFO  MyNewGame:70 - Сыграно партий 1
+2021-07-11 20:53:02 INFO  MyNewGame:71 - Оасталось партий 2
+2021-07-11 20:53:03 INFO  MyNewGame:115 - 2 Round won: Draw ---> dsad threw away scissors PC threw away scissors
+2021-07-11 20:53:03 INFO  MyNewGame:70 - Сыграно партий 2
+2021-07-11 20:53:03 INFO  MyNewGame:71 - Оасталось партий 1
+2021-07-11 20:53:05 INFO  MyNewGame:115 - 3 Round won: dsad ---> dsad threw away paper PC threw away stone 
+2021-07-11 20:53:05 INFO  MyNewGame:141 - Игра окончена. Победил - As a result  3 games won dsad
+2021-07-11 20:53:18 INFO  MyNewGame:41 - Пользователь вошел в игру
+2021-07-11 20:53:48 INFO  MyNewGame:50 - Имя пользователя - Pavel
+2021-07-11 20:53:49 INFO  MyNewGame:53 - Пользователь выбрал 3 партий
+2021-07-11 20:53:49 INFO  MyNewGame:70 - Сыграно партий 0
+2021-07-11 20:53:49 INFO  MyNewGame:71 - Оасталось партий 3
+2021-07-11 20:53:51 INFO  MyNewGame:115 - 1 раунд выиграл: Pavel ---> Pavel выкинул камень  PC выкинул ножницы
+2021-07-11 20:53:51 INFO  MyNewGame:70 - Сыграно партий 1
+2021-07-11 20:53:51 INFO  MyNewGame:71 - Оасталось партий 2
+2021-07-11 20:53:54 INFO  MyNewGame:115 - 2 раунд выиграл: PC ---> Pavel выкинул ножницы PC выкинул камень 
+2021-07-11 20:53:54 INFO  MyNewGame:70 - Сыграно партий 2
+2021-07-11 20:53:54 INFO  MyNewGame:71 - Оасталось партий 1
+2021-07-11 20:53:57 ERROR MyNewGame:94 - Пользователь ввел неверное значение
+2021-07-11 20:53:57 INFO  MyNewGame:70 - Сыграно партий 2
+2021-07-11 20:53:57 INFO  MyNewGame:71 - Оасталось партий 1
+2021-07-11 20:54:00 INFO  MyNewGame:115 - 3 раунд выиграл: PC ---> Pavel выкинул бумага PC выкинул ножницы
+2021-07-11 20:54:00 INFO  MyNewGame:141 - Игра окончена. Победил - По итогу  3 игр победил PC
